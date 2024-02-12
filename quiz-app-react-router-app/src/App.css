@@ -1,0 +1,155 @@
+/* home component */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.containerhome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #5c567d;
+  color: white
+}
+
+
+.playbtnstart{
+  padding: 10px;
+  width: 15vw;
+  border: 2px solid #0AB306 ;
+  background-color: #0AB306;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+
+}
+
+
+/* quiz */
+.body2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #473A8D;
+}
+.containerquiz{
+  background-color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  border-left: 5px solid #8686F3;
+  padding: 20px;
+}
+h2,h4{
+  text-align: center;
+}
+.options{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 3vh;
+  
+}
+.options button{
+  width: 30vw;
+  height: 7vh;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #1EA1F1;
+  border: 2px solid #1EA1F1;
+  border-radius: 40px;
+  cursor: pointer;
+  color: white;
+
+}
+.navButtons{
+  text-align: center;
+  margin-top: 10vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+}
+#prev,#quit,#next,#finish{
+  width: 6vw;
+  padding: 7px;
+  border: 2px solid transparent;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+#prev{
+  background-color: #3E7EAA;
+  width: 70px;
+
+}
+#next{
+  background-color: #00ff00;
+}
+#quit{
+  background-color: rgb(253, 48, 48);
+}
+
+#finish{
+  background-color:indigo ;
+  width: 70px;
+
+}
+
+
+
+.body3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  width: 100vw;
+  background-color: #473A8D;
+}
+
+.containerResult{
+  color: black;
+  background-color: white;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  border-left: 5px solid #8686F3;
+  padding: 20px;
+  text-align: center;
+}
+.btn {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btns{
+  margin-top: 20px;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}   
+.score{
+  color: rgb(255, 0, 0);
+}
+#play{
+background-color: #00ff00;
+}
+#back{
+  background-color: #59859f;
+}

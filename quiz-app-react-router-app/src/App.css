@@ -29,7 +29,6 @@ body{
 }
 
 
-/* quiz */
 .body2{
   display: flex;
   justify-content: center;
@@ -51,6 +50,9 @@ body{
 h2,h4{
   text-align: center;
 }
+h4{
+  font-size: 20px;
+}
 .options{
   display: flex;
   flex-wrap: wrap;
@@ -65,7 +67,6 @@ h2,h4{
   padding: 10px;
   margin-top: 30px;
   background-color: #1EA1F1;
-  border: 2px solid #1EA1F1;
   border-radius: 40px;
   cursor: pointer;
   color: white;
@@ -75,7 +76,6 @@ h2,h4{
   text-align: center;
   margin-top: 10vh;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   gap: 20px;
 }
@@ -88,19 +88,20 @@ h2,h4{
   color: white;
 }
 #prev{
-  background-color: #3E7EAA;
+  background-color: #073452;
   width: 70px;
 
 }
 #next{
-  background-color: #00ff00;
+  background-color: #3fa477;
 }
 #quit{
   background-color: rgb(253, 48, 48);
 }
 
 #finish{
-  background-color:indigo ;
+  background-color:rgb(184, 173, 192) ;
+  color: black;
   width: 70px;
 
 }
